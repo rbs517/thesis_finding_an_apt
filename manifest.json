@@ -1,0 +1,30 @@
+{
+  "name": "Seamless Scraper",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Scrapes items you ordered on seamless",
+  "icons": {
+  },
+  "background": {
+    // "scripts": [
+    //   "background.js"
+    // ],
+    // "persistent": true
+  },
+  "permissions": [
+    "tabs", "tts"
+  ],
+  "web_accessible_resources": [
+
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "lib/jquery-1.11.1.min.js","inject.js"
+      ]
+    }
+  ]
+}
