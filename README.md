@@ -8,7 +8,7 @@ This is a part of my Absurd Algorithms series for my thesis at ITP 2019.
 
 To Use: 
 1. Download or clone this repo
-2. Go to (chrome://extensions/)
+2. Open a new tab in chrome and go to chrome://extensions/
 3. Click "Load Unpacked" on the upper left corner
 4. Upload the repo file 
 5. Make sure the extension is turned on
